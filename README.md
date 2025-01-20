@@ -4,6 +4,14 @@ A basic script to delete all your tweets.
 
 It uses python and Selenium to drive a local Firefox browser to do the work. (No twitter API usage.)
 
+## Dependencies
+
+* [Python](https://www.python.org) 3
+* [Selenium](https://www.selenium.dev) for Python
+  ```
+  pip3 install selenium
+  ```
+
 ## How to use:
 
 1. Get a backup of your tweets.
