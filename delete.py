@@ -98,7 +98,7 @@ def login(creds):
     brows.set_page_load_timeout(20)
 
     brows.get(
-        f'https://twitter.com/i/flow/login?redirect_after_login=%2F{creds["username"]}'
+        f'https://x.com/i/flow/login'
     )
 
     username = WebDriverWait(brows, 20).until(
